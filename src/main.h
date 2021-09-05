@@ -1,0 +1,4 @@
+#ifndef NGSOLVER_MAIN_H
+#define NGSOLVER_MAIN_H
+
+#endif //NGSOLVER_MAIN_H

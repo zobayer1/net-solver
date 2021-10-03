@@ -2,7 +2,10 @@ cmake_minimum_required(VERSION 3.20)
 
 project(netgame-solver VERSION 0.0.1 DESCRIPTION "Netgame Solver" LANGUAGES CXX)
 
+enable_testing()
+
 add_subdirectory(src)
+add_subdirectory(test)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
